@@ -7,17 +7,28 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 * [![Shiny](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/brinapirc/APPR-2018-19/master?urlpath=shiny/APPR-2018-19/projekt.Rmd) Shiny
 * [![RStudio](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/brinapirc/APPR-2018-19/master?urlpath=rstudio) RStudio
 
-## Brezposelnost v Evropski uniji
+## Evrovizija &#9733;
+Projekt je posvečen analizi Evrovizije, evropksega pevskega tekmovanja. Namen je poiskati podatke o:
+    * državah zmagovalkah od leta 1956 do 2015 (od leta 2015 je način glasovanja namreč spremenjen)
+    * številu glasov, ki so jih te države prejele
+    * državah, ki se največkrat uvrstijo v finalni del tekmovanja (pri tem ne bomo upoštevali tistih, ki se uvrstijo avtomatično), in tistih, ki se najmanjkrat
+    * jezikih, v katerih države nastopajo
+    * glasovanju, in sicer katere države so dobile največ glasov
+Iz teh podatkov in trendov bomo lahko zaključili, pripadnik katere države se najbolj izplača biti ter v katerem jeziku je najbolje prepevati. Seveda ima analiza tudi 
 
-V projektu bom analizirala brezposelnost aktivnega prebivalstva držav članic Evropske unije (EU28). Primerjala bom stopnje brezposelnosti od leta 2002 do 2018 glede na državo, starost (do 25. leta in od 25. leta do 74. leta) in spol (M, Ž). Poleg tega bom predstavila odvisnost brezposelnosti od dosežene stopnje izobrazbe.
+# Tabele:
+* leto tekmovanja, država zmagovalka, število prejetih glasov
+* število izvedenih pesmi v različnih jezikih, število zmagovalnih pesmi, izvedenih v tem jeziku
+* število uvrstitev v finale (10 najboljših in najslabših držav)
+* država, število prejetih glasov v skupnem, število zmag
 
-Cilj projekta je ugotoviti, kako se je gibala brezposelnost prebivalstva od leta 2002 do leta 2018 v današnjih državah članicah. Iz podatkov bomo lahko ugotovili, kako je finančna kriza leta 2008 vplivala na brezposelnost, katero starostno skupino je najbolj prizadela in kakšna je statistika po premagani krizi.
+# Viri:
+* [ESC Stats](http://www.escstats.com/)
+* [Eurovision Song Contest](https://eurovision.tv)
 
-v Tabeli 1 in 2 bo predstavljena brezposelnost po obeh spolih v letih od 2002 do 2018 kot delež celotnega prebivalstva. V Tabeli 3 in 4 bodo podatki glede na starostno skupino, v Tabeli 5 pa glede na stopnjo izobrazbe. lp
+# Opomba:
+Zajetje podatkov se utegne spremeniti, vendar ne korenito.
 
-### Viri:
-* [Eurostat](https://ec.europa.eu/eurostat/data/database)
-    
 
 ## Program
 
