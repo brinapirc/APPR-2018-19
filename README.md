@@ -9,16 +9,16 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 
 ## Evrovizija &#9733;
 Projekt je posvečen analizi Evrovizije, evropksega pevskega tekmovanja. Namen je poiskati podatke o:
-    * državah zmagovalkah od leta 1956 do 2015 (od leta 2015 je način glasovanja namreč spremenjen)
-    * številu glasov, ki so jih te države prejele
-    * državah, ki se največkrat uvrstijo v finalni del tekmovanja (pri tem ne bomo upoštevali tistih, ki se uvrstijo avtomatično), in tistih, ki se najmanjkrat
-    * jezikih, v katerih države nastopajo
-    * glasovanju, in sicer katere države so dobile največ glasov
-Iz teh podatkov in trendov bomo lahko zaključili, pripadnik katere države se najbolj izplača biti ter v katerem jeziku je najbolje prepevati. Seveda ima analiza tudi 
+* državah zmagovalkah od leta 1956 do 2015 (od leta 2015 je način glasovanja namreč spremenjen)
+* številu glasov, ki so jih te države prejele
+* državah, ki se največkrat uvrstijo v finalni del tekmovanja (pri tem ne bomo upoštevali tistih, ki se uvrstijo avtomatično), in tistih, ki se najmanjkrat
+* jezikih, v katerih države nastopajo
+* glasovanju, in sicer katere države so dobile največ glasov
+Iz teh podatkov in trendov bomo lahko zaključili, pripadnik katere države se najbolj izplača biti ter v katerem jeziku je najbolje prepevati. Analiza teh podatkov ima tudi splošni namen ozaveščanja javnosti.
 
 # Tabele:
 * leto tekmovanja, država zmagovalka, število prejetih glasov
-* število izvedenih pesmi v različnih jezikih, število zmagovalnih pesmi, izvedenih v tem jeziku
+* število izvedenih pesmi v različnih jezikih, število zmagovalnih pesmi, izvedenih v tem jeziku oz. najboljša dosežena uvrstitev
 * število uvrstitev v finale (10 najboljših in najslabših držav)
 * država, število prejetih glasov v skupnem, število zmag
 
