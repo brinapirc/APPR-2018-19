@@ -7,10 +7,14 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 * [![Shiny](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/brinapirc/APPR-2018-19/master?urlpath=shiny/APPR-2018-19/projekt.Rmd) Shiny
 * [![RStudio](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/brinapirc/APPR-2018-19/master?urlpath=rstudio) RStudio
 
-## Tematika
+## Brezposelnost v Evropski uniji
 
-Izbrali si boste temo, s katero se bo vaš projekt ukvarjal.
-Tukaj boste napisali, kje ste dobili podatke, ter kakšen je vaš cilj.
+V projektu bom analizirala brezposelnost aktivnega in neaktivnega prebivalstva držav članic Evropske unije (EU28). Primerjala bom stopnje brezposelnosti od leta 2000 do 2008 glede na državo, starost in spol. Poleg tega bom predstavila odvisnost brezposelnosti od dosežene stopnje izobrazbe.
+
+Cilj projekta je ugotoviti, kako se je gibala brezposelnost prebivalstva od leta 2000 do finančne krize leta 2008 v današnjih državah članicah. 
+
+# Viri:
+* [Eurostat](https://ec.europa.eu/eurostat/data/database)
 
 ## Program
 
