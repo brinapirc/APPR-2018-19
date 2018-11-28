@@ -9,12 +9,15 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2018/19
 
 ## Brezposelnost v Evropski uniji
 
-V projektu bom analizirala brezposelnost aktivnega in neaktivnega prebivalstva držav članic Evropske unije (EU28). Primerjala bom stopnje brezposelnosti od leta 2000 do 2008 glede na državo, starost in spol. Poleg tega bom predstavila odvisnost brezposelnosti od dosežene stopnje izobrazbe.
+V projektu bom analizirala brezposelnost aktivnega prebivalstva držav članic Evropske unije (EU28). Primerjala bom stopnje brezposelnosti od leta 2002 do 2018 glede na državo, starost (do 25. leta in od 25. leta do 74. leta) in spol (M, Ž). Poleg tega bom predstavila odvisnost brezposelnosti od dosežene stopnje izobrazbe.
 
-Cilj projekta je ugotoviti, kako se je gibala brezposelnost prebivalstva od leta 2000 do finančne krize leta 2008 v današnjih državah članicah. 
+Cilj projekta je ugotoviti, kako se je gibala brezposelnost prebivalstva od leta 2002 do leta 2018 v današnjih državah članicah. Iz podatkov bomo lahko ugotovili, kako je finančna kriza leta 2008 vplivala na brezposelnost, katero starostno skupino je najbolj prizadela in kakšna je statistika po premagani krizi.
 
-# Viri:
+v Tabeli 1 in 2 bo predstavljena brezposelnost po obeh spolih v letih od 2002 do 2018 kot delež celotnega prebivalstva. V Tabeli 3 in 4 bodo podatki glede na starostno skupino, v Tabeli 5 pa glede na stopnjo izobrazbe. lp
+
+### Viri:
 * [Eurostat](https://ec.europa.eu/eurostat/data/database)
+    
 
 ## Program
 
