@@ -14,19 +14,20 @@ Projekt je posvečen analizi Evrovizije, evropksega pevskega tekmovanja. Namen j
 * državah, ki se največkrat uvrstijo v finalni del tekmovanja (pri tem ne bomo upoštevali tistih, ki se uvrstijo avtomatično), in tistih, ki se najmanjkrat
 * jezikih, v katerih države nastopajo
 * glasovanju, in sicer katere države so dobile največ glasov
+
 Iz teh podatkov in trendov bomo lahko zaključili, pripadnik katere države se najbolj izplača biti ter v katerem jeziku je najbolje prepevati. Analiza teh podatkov ima tudi splošni namen ozaveščanja javnosti.
 
-# Tabele:
+### Tabele:
 * leto tekmovanja, država zmagovalka, število prejetih glasov
 * število izvedenih pesmi v različnih jezikih, število zmagovalnih pesmi, izvedenih v tem jeziku oz. najboljša dosežena uvrstitev
 * število uvrstitev v finale (10 najboljših in najslabših držav)
 * država, število prejetih glasov v skupnem, število zmag
 
-# Viri:
+### Viri:
 * [ESC Stats](http://www.escstats.com/)
 * [Eurovision Song Contest](https://eurovision.tv)
 
-# Opomba:
+### Opomba:
 Zajetje podatkov se utegne spremeniti, vendar ne korenito.
 
 
