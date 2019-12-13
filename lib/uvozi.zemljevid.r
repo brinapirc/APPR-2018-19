@@ -1,5 +1,6 @@
 # Uvoz potrebnih knjižnic
 library(rgdal)
+library(rgeos)
 library(dplyr)
 library(readr)
 library(ggplot2)
@@ -50,7 +51,7 @@ uvozi.zemljevid <- function(url, ime.zemljevida, pot.zemljevida="",
                                       function(x)
                                         paste(c(x[1:(length(x)-1)], tolower(x[length(x)])),
                                               collapse="."))))
-  zemljevid <- readOGR(pot, ime.zemljevida)
+  zemljevid <- readOGR(shp, ime.zemljevida)
 
   if (!is.null(encoding)) {
     loc <- locale(encoding=encoding)

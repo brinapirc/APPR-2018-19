@@ -1,4 +1,4 @@
-# Analiza podatkov s programom R, 2018/19
+# Analiza podatkov s programom R, 2019/20
 
 # Brina Pirc
 
@@ -54,15 +54,17 @@ Za zagon tega vzorca je potrebno namestiti sledeče pakete za R:
 * `shiny` - za prikaz spletnega vmesnika
 * `DT` - za prikaz interaktivne tabele
 * `rgdal` - za uvoz zemljevidov
+* `rgeos` - za podporo zemljevidom
 * `digest` - za zgoščevalne funkcije (uporabljajo se za shranjevanje zemljevidov)
 * `readr` - za branje podatkov
 * `rvest` - za pobiranje spletnih strani
-* `reshape2` - za preoblikovanje podatkov v obliko *tidy data*
+* `tidyr` - za preoblikovanje podatkov v obliko *tidy data*
 * `dplyr` - za delo s podatki
 * `gsubfn` - za delo z nizi (čiščenje podatkov)
 * `ggplot2` - za izrisovanje grafov
 * `mosaic` - za pretvorbo zemljevidov v obliko za risanje z `ggplot2`
 * `maptools` - za delo z zemljevidi
+* `tmap` - za izrisovanje zemljevidov
 * `extrafont` - za pravilen prikaz šumnikov (neobvezno)
 
 ## Binder
@@ -85,6 +87,6 @@ lahko pripravite [lastno sliko](https://github.com/jaanos/APPR-docker) z želeni
 Če želite v Binderju delati z git,
 v datoteki `gitconfig` nastavite svoje ime in priimek ter e-poštni naslov
 (odkomentirajte vzorec in zamenjajte s svojimi podatki) -
-ob naslednjem.zagonu bo mogoče delati commite.
+ob naslednjem zagonu bo mogoče delati commite.
 Te podatke lahko nastavite tudi z `git config --global` v konzoli
 (vendar bodo veljale le v trenutni seji).
