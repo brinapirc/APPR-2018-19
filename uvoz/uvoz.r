@@ -19,7 +19,9 @@ uvozi.obcine <- function() {
   tabela$obcina[tabela$obcina == "Kanal ob Soči"] <- "Kanal"
   tabela$obcina[tabela$obcina == "Loški potok"] <- "Loški Potok"
   for (col in c("povrsina", "prebivalci", "gostota", "naselja", "ustanovitev")) {
-    tabela[[col]] <- parse_number(tabela[[col]], na="-", locale=sl)
+    if (is.character(tabela[[col]])) {
+      tabela[[col]] <- parse_number(tabela[[col]], na="-", locale=sl)
+    }
   }
   for (col in c("obcina", "pokrajina", "regija")) {
     tabela[[col]] <- factor(tabela[[col]])
@@ -33,11 +35,10 @@ uvozi.druzine <- function(obcine) {
                     locale=locale(encoding="Windows-1250"))
   data$obcina <- data$obcina %>% strapplyc("^([^/]*)") %>% unlist() %>%
     strapplyc("([^ ]+)") %>% sapply(paste, collapse=" ") %>% unlist()
-  data$obcina[data$obcina == "Sveti Jurij"] <- "Sveti Jurij ob Ščavnici"
-  data <- data %>% melt(id.vars="obcina", variable.name="velikost.druzine",
-                        value.name="stevilo.druzin")
+  data$obcina[data$obcina == "Sveti Jurij"] <- iconv("Sveti Jurij ob Ščavnici", to="UTF-8")
+  data <- data %>% gather(`1`:`4`, key="velikost.druzine", value="stevilo.druzin")
   data$velikost.druzine <- parse_number(data$velikost.druzine)
-  data$obcina <- factor(data$obcina, levels=obcine)
+  data$obcina <- parse_factor(data$obcina, levels=obcine)
   return(data)
 }
 
